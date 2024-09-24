@@ -3,6 +3,7 @@ productName: "test"
 asarUnpack:
   - node_modules/sqlite3
 mac:
+  notarize: false
   target:
     - target: "dmg"
       arch:
