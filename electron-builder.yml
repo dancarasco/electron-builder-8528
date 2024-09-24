@@ -1,0 +1,20 @@
+appId: "app.test"
+productName: "test"
+asarUnpack:
+  - node_modules/sqlite3
+mac:
+  target:
+    - target: "dmg"
+      arch:
+        - "universal"
+    - target: "zip"
+      arch:
+        - "universal"
+nsis:
+  perMachine: true
+win:
+  target:
+    - target: "nsis"
+      arch:
+        - "x64"
+npmRebuild: true
